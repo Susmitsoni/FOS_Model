@@ -1,0 +1,8 @@
+pandas
+matplotlib
+seaborn
+sklearn
+nltk
+tensorflow
+time
+streamlit
