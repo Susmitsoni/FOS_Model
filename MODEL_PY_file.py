@@ -18,7 +18,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 # %matplotlib inline
 
 # Load the CSV file into a pandas DataFrame
-df = pd.read_csv('C:/programming/python/DataSet/New folder/FOS_CSV.csv', encoding='latin1')
+df = pd.read_csv('FOS_CSV.csv', encoding='latin1')
 
 # Preprocessing: Tokenization and Vectorization
 stop_words = set(stopwords.words('english'))
