@@ -42,7 +42,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-df = pd.read_csv('C:/programming/python/DataSet/New folder/FOS_CSV.csv', encoding='latin1')
+df = pd.read_csv('FOS_CSV.csv', encoding='latin1')
 
 stop_words = set(stopwords.words('english'))
 
